@@ -27,7 +27,7 @@ export const ContainerLogin = styled.div`
     justify-content: center;
     background-color: #d9d9d9;
     width: 100%;
-    height: 100vh;
+    /* height: 100vh; */
     max-width: 646px;
     right: 0;
     top: 0;
@@ -38,6 +38,7 @@ export const ContainerLoginScreen = styled.div`
     display: flex;
     justify-content: right;
     width: 100%;
+    height: 100vh;
 `;
 
 export const LimitedContainer = styled.div`
