@@ -19,7 +19,7 @@ const LoginScreen = () => {
 
     const handleLogin = async () => {
 
-        const returbObject = axios({
+        const returnbObject = axios({
             method: "post",
             url: "/user/12345",
             data: {
@@ -27,6 +27,7 @@ const LoginScreen = () => {
                 lastName: "Flintstone",
             },
         });
+
         alert(`login: ${username}, senha: ${password}`)
     }
 
